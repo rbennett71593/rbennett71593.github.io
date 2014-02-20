@@ -1,38 +1,14 @@
-p {
-    font-size: 18pt;
-}
-.floater1 {
-    background-color: #222;
-    color: #fff;
-    height: 50px;
-}
-
-.floater2 {
-    background-color: #444;
-    color: #fff;
-    height: 150px;
-    width: 50%;
-    float: right;
-}
-
-.floater3 {
-    background-color: #666;
-    height: 50px;
-    position: absolute;
-    top: 20;
-    right: 0;
-}
-
-.floater4 {
-    background-color: #888;
-    height: 50px;
+img.centered {
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 
 .container{
-	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: yellow;
+	background-color: #FFFFFF;
 }
 body{
 	background-color: #DDD;

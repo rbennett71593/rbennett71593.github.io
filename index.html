@@ -1,24 +1,48 @@
 <html>
-<head>
-	<title>Ryan Bennett: Home</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <!--Import Bootstrap files-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    
+    <title>Ryan Bennett: Home</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
 <body>
-	<h1>Ryan Bennett</h1>
-	<p>Wow, this is a really neat guy! Click on the links below to find out why!</p>
+<div class="container theme-showcase" role="main">
+	<div class="jumbotron">
+    	<h1>Ryan Bennett</h1>
+        <p>Wow, this is a really neat guy! Click on the links below to find out why!</p>
+    </div>
 
-			<ul>
-				<li><a href="interests.html">Interests and frequented links</a></li>
-				<li><a href="experiences.html">Past experiences</a></li>
-				<li><a href="future.html">Future goals</a></li>
-			</ul>
+	<div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><a href="interests.html">Interests and frequented links</a></h3>
+            </div>
+            <div class="panel-body">What does Ryan enjoy doing?</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><a href="experiences.html">Past experiences</a></h3>
+            </div>
+            <div class="panel-body">What has Ryan done in the past?</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><a href="future.html">Future goals</a></h3>
+            </div>
+            <div class="panel-body">What does Ryan want to do in the future?</div>
+          </div>
+        </div>
+      </div>
+      
+	  <img class="centered" src="suits.jpg" width="70%" alt="Ryan looking amazing as always">
 
-			<figure>
-				<img src="suits.jpg" width="50%" alt="Ryan looking amazing as always">
-			</figure>
-
-	
-		<marquee>No black and white website would be complete without a marquee</marquee>
-	
+</div>
 </body>
 </html>
