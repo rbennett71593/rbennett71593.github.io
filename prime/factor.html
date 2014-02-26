@@ -4,8 +4,11 @@
 	<script type="text/javascript" src="factor.js"></script>
 </head>
 <body>
-    Number: <input type="text" id="number"/><br />
+	<h1>Prime Factorization Calculator</h1>
+    Number: <input type="text" id="number" value="Input an integer"
+           onfocus="if(this.value=='Input an integer') this.value='';"/><br />
     <button onclick="calculate()">Find Primes</button>
+    <button onclick="window.print()">Print</button>
     <span id="primes"></span>
 
 </body>

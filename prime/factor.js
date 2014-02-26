@@ -31,12 +31,14 @@ function leastFactor(n) {
 
 
 function calculate(){
+	document.getElementById("primes").innerHTML = ''
 	var input = document.getElementById("number").value
 	var output = document.createElement('ul')
 	var factorstring = factor(input)
 	var primes = factorstring.split("*")
 	
-	output.innerHTML += "Number: " + input + ". # of Primes: " + primes.length;	
+	output.innerHTML += "Number: " + input + " -- # of Primes: " + primes.length;	
+	
 	for (var i=0; i < primes.length; i++){
 		output.innerHTML += "<li>" + primes[i] + "</li>";
 	}
