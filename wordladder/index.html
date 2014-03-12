@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script src="wordLists.js"></script>
+	<script src="stack.js"></script>
+	<script src="set.js"></script>
+	<script src="queue.js"></script>
+	<script src="wl.js"></script>
+	
+	<title>Word Ladder Builder</title>
+</head>
+
+<body>
+    <h1>Build a Word Ladder</h1>
+    <h3>Ryan Bennett</h3>
+
+    <form>
+		Starting Word: <input type="text" id="end" value="nap"><br />
+		Ending Word: <input type="text" id="start" value="cup"><br />
+		<input type="button" id="submit" value="Build word ladder" onclick="wordLadder()">
+	</form>
+
+    <div id="ladder"></div>    
+
+</body>
+</html>
